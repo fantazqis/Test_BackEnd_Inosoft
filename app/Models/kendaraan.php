@@ -3,22 +3,14 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
-class kendaraan extends Model
+class Kendaraan extends Model
 {
     use HasFactory;
-
     protected $connection = 'mongodb';
-    protected $collection = 'kendaraan';
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    /*
+    protected $collection = 'kendaraans';
     protected $fillable = [
-        'tahun_keluaran', 'warna', 'harga'
+        'tahun_keluaran', 'warna', 'harga', 'stok', 'terjual', 'tipe_kendaraan', ' mesin', 'tipe_suspensi', 'kapasistas_penumpang', 'tipe_transmisi', 'tipe'
     ];
-    */
 }
