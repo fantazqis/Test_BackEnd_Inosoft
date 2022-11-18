@@ -18,6 +18,7 @@ https://documenter.getpostman.com/view/24277352/2s8YmRNgd8
 </br>DB_USERNAME=
 </br>DB_PASSWORD=
 </br>
+
 * Run "php artisan key:generate"
 * if you need some dummy data for testing Run "php artisan migrate --seed" it will provide 100 vehicle data and 100 user data
 * after you complete all list above Run"php artisan serve" 
